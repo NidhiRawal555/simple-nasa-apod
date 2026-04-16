@@ -1,6 +1,5 @@
 import { useState, useCallback } from 'react'
 import type { ApodData, FetchStatus } from '../types'
-const ACCOUNT_NAME = '648238a5-a4f2-480a-971a-b5b109090a5a' 
 const API_KEY = 'DGASscFDRvODCceQN8TqML41sY4QePfRRMJhXtb7'
 const BASE_URL = 'https://api.nasa.gov/planetary/apod'
 

@@ -73,7 +73,7 @@ console.log('DatePicker rendered with:', { date, isLoading, minDate, maxDate })
         <div className={styles.quickDates} role="group" aria-label="Quick date shortcuts">
           <span className={styles.quickLabel}>Jump to:</span>
           {QUICK_DATES.map(({ label, getValue }) => {
-            const value = getValue(maxDate)
+            const value = getValue()
             const isDisabled = value < minDate || value > maxDate
             return (
               <button
